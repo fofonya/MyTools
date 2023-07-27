@@ -1,0 +1,25 @@
+@w:500px;
+
+nav{
+  background-color: #eaeaea;
+  width: @w;
+  ul{
+    display: flex;
+    justify-content: space-between;
+    width: @w;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li{
+      background-color: cadetblue;
+      width: 100px;
+      text-align: right;
+      &:hover a{
+        color: brown;
+      }
+      a{
+        text-decoration: none;
+      }
+    }
+  }
+}

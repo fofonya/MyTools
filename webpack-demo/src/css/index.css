@@ -1,0 +1,16 @@
+h2{
+  color: skyblue;
+}
+.title{
+  background-color: pink;
+}
+
+body{
+  background-image: url(../imgs/banner1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+li{
+  background-image: url(../imgs/API26.jpg);
+  background-repeat: no-repeat;
+}
